@@ -12,7 +12,7 @@ public class FacaEnquanto {
 		char op = 's';
 		
 		while (op != 'n') {
-			System.out.println("Digite a temperatura em Celsius:");
+			//System.out.println("Digite a temperatura em Celsius:");
 			c = sc.nextDouble();
 			f = ((9.0 * c)/5) + 32;
 			System.out.printf("Equivalente em Fahrenheit: %.2f%n",f);
