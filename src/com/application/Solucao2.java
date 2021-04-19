@@ -36,14 +36,14 @@ public class Solucao2 {
 			saida = sdf.parse(sc.next());
 			
 			
-			String erro = reserva.atualizarDatas(entrada, saida);
+			/*String erro = reserva.atualizarDatas(entrada, saida);
 			if (erro != null) {
 				System.out.println("Erro na reserva; "+ erro);
 			}
 			else {
 				System.out.println(reserva);
 
-			}
+			}*/
 		}	
 	}
 
